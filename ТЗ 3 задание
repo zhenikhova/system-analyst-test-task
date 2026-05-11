@@ -1,16 +1,1 @@
-```mermaid
-flowchart LR
 
-A[Mobile App] --> B[API Gateway]
-
-B --> C[Order Service]
-B --> D[Cart Service]
-B --> E[Promo Service]
-
-C --> F[Message Broker]
-D --> F
-E --> F
-
-F --> G[Notification Service]
-G --> H[Push Provider]
-H --> I[Mobile Devices]
