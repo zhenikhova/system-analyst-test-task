@@ -1,0 +1,42 @@
+Задание 2. Проектирование API
+
+1. Пример REST API запроса:
+
+GET /api/v1/partner-shops
+Host: api.petrushka-green.ru
+Content-Type: application/json
+
+2. Пример ответа API
+
+{
+  "partnerShops": [
+    {
+      "id": 1,
+      "name": "METRO",
+      "description": "Сеть торговых центров",
+      "imageUrl": "https://cdn.petrushka-green.ru/partners/metro.png",
+      "redirectUrl": "https://online.metro-cc.ru"
+    },
+    {
+      "id": 2,
+      "name": "Ашан",
+      "description": "Гипермаркет товаров для дома и продуктов",
+      "imageUrl": "https://cdn.petrushka-green.ru/partners/auchan.png",
+      "redirectUrl": "https://www.auchan.ru"
+    },
+    {
+      "id": 3,
+      "name": "ВкусВилл",
+      "description": "Магазин натуральных продуктов",
+      "imageUrl": "https://cdn.petrushka-green.ru/partners/vkusvill.png",
+      "redirectUrl": "https://vkusvill.ru"
+    },
+    {
+      "id": 4,
+      "name": "Виктория",
+      "description": "Сеть супермаркетов",
+      "imageUrl": "https://cdn.petrushka-green.ru/partners/victoria.png",
+      "redirectUrl": "https://victoria-group.ru"
+    }
+  ]
+}
